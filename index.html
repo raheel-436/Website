@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Finance</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <!--We want the priority of css more than bootstrap so link it under the BS-link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-color py-5 pt-lg-5">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Smart Finance</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-capitalize text-white"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#">About</a>
+            </li>
+            <li class="nav-item text-capitalize">
+              <a class="nav-link" href="#online-section">Faq</a>
+            </li>
+            <li class="nav-item text-capitalize">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="bg-main bg-color hero-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div
+            class="mt-5 mt-lg-0 text-center text-lg-start order-lg-0 order-1 col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h1 class="text-capitalize fw-bolder text-white">
+              We Revolutionize Finance
+            </h1>
+            <p class="mt-3 mb-5 para-width text-light-grey">
+              DeFi platforms leverage blockchain technology to provide users
+              with unprecedented control over their assets, opening up
+              opportunities for global financial inclusion and innovation.
+            </p>
+            <div
+              class="text-center w-100 text-md-start"
+              data-bs-toggle="tooltip"
+              data-bs-title="get in touch"
+            >
+              <button class="text-capitalize btn btn-primary mt-2 px-5 py-2">
+                Contact Us
+              </button>
+            </div>
+          </div>
+          <!-- hero section image -->
+          <div class="col-12 col-md-12 col-lg-6 order-lg-1 order-0">
+            <div class="text-center text-lg-end">
+              <img
+                src="images/hero_image.png"
+                alt=""
+                class="hero-image--section"
+              /><!--if it was a video just add loop muted autoplay after alt text-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- shape divider for hero section start -->
+      <div class="custom-shape-divider-bottom-1698226092">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <!-- shape divider for hero section end -->
+    </section>
+    <!-- Services Section -->
+    <section class="services-section">
+      <div class="container text-center common-title fw-semibold">
+        <h2 class="common-heading">Our Expertise</h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container mt-5">
+        <div class="row g-5">
+          <!-- First -->
+          <div class="col-xxl-4 col-lg-4 col-md-12">
+            <div class="text-center card-box rounded-2 p-5">
+              <img
+                src="images/service1_-removebg-preview.png"
+                alt=""
+                class="img-fluid"
+                width="200px"
+              />
+              <h5 class="my-3 fw-normal">Custom Smart Contracts</h5>
+              <p class="mb-5">
+                Experience the future of blockchain innovation through our
+                Ethereum smart contract solutions, tailored to meet your
+                project's specific needs and goals.
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#services"
+                  class="icon-bg rounded-circle d-flex justify-content-center align-items-center"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="col-xxl-4 col-lg-4 col-md-12">
+            <div class="text-center card-box rounded-2 p-5 shadow">
+              <img
+                src="images/service2-removebg-preview.png"
+                alt=""
+                class="img-fluid"
+                width="200px"
+              />
+              <h5 class="my-3 fw-normal">Smart Contracts Auditing</h5>
+              <p class="mb-5">
+                Trust in our expertise to meticulously review and optimize your
+                smart contracts, safeguarding your digital assets and upholding
+                industry standards
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#services"
+                  class="icon-bg rounded-circle d-flex justify-content-center align-items-center"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="col-xxl-4 col-lg-4 col-md-12">
+            <div class="text-center card-box rounded-2 p-5">
+              <img
+                src="images/service3_nfts.png"
+                alt=""
+                class="img-fluid"
+                width="200px"
+              />
+              <h5 class="my-3 fw-normal">NFTs</h5>
+              <p class="mb-5">
+                Unleash the potential of unique digital assets through our NFT
+                service, where creativity meets blockchain, and innovation has
+                no bounds
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  href="#services"
+                  class="icon-bg rounded-circle d-flex justify-content-center align-items-center"
+                  ><i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Digital Products -->
+    <section class="more-info-section bg-color">
+      <section class="container">
+        <div class="row">
+          <div class="col-xl-6 xol-lg-6 col-md-12 col-12 img-section">
+            <figure>
+              <img
+                alt="contract image"
+                class="img-fluid"
+                width="100px"
+                src="images/aim.png"
+              />
+            </figure>
+          </div>
+
+          <div
+            class="col-xl-6 xol-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h1 class="common-heading text-capitalize fw-bolder text-white">
+              Our Aim
+            </h1>
+            <p class="mt-3 mb-5 para-width text-light-grey">
+              By conducting thorough and rigorous smart contract audits, we
+              scrutinize every line of code, identifying vulnerabilities, and
+              ensuring the highest level of security. Our commitment to
+              transparency and diligence not only fortifies the trust in
+              blockchain but also acts as a vital safeguard for your digital
+              assets, making your journey in the digital realm as secure as it
+              is transformative. With every audit, we aim to set new standards
+              for excellence in blockchain technology, ultimately contributing
+              to a safer and more reliable ecosystem for all participants.
+            </p>
+
+            <button class="btn btn-primary px-5 py-2">Contact Us</button>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- FAQ Section -->
+    <section class="common-section business-section" id="online-section">
+      <div class="container text-center common-title fw-semibold">
+        <h2 class="common-heading">FAQ</h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <div class="row g-5">
+          <!-- First Faq -->
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 py-5 shadow">
+              <img
+                src="images/question1.png"
+                alt=""
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mb-2 fw-bolder">Is blockchain secure?</p>
+                <p>
+                  Blockchain is considered secure due to its cryptographic
+                  features and decentralized nature. However, the security of a
+                  blockchain depends on the implementation, and vulnerabilities
+                  can still exist.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Second Faq -->
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 py-5 shadow">
+              <img
+                src="images/question2.png"
+                alt=""
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mb-2 fw-bolder">Can anyone read a smart contract?</p>
+                <p>
+                  Yes, smart contracts on public blockchains are transparent,
+                  and anyone can access and review the code. This transparency
+                  contributes to trust but can also expose vulnerabilities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Third Faq -->
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 py-5 shadow">
+              <img
+                src="images/question3.png"
+                alt=""
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mb-2 fw-bolder">Can NFT ownership be transferred?</p>
+                <p>
+                  Yes, NFT ownership can be transferred between wallets. This is
+                  typically done through the marketplace or platform where the
+                  NFT was created or purchased.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Fourth Faq -->
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex px-3 py-5 shadow">
+              <img
+                src="images/question4.png"
+                alt=""
+                class="d-md-block d-none img-fluid mx-3"
+                width="150px"
+              />
+
+              <div>
+                <p class="mb-2 fw-bolder">
+                  What happens after a smart contract audit?
+                </p>
+                <p>
+                  After an audit, the auditor provides a report outlining
+                  findings, recommendations, and suggested fixes. Developers
+                  then address the issues found and retest the contract.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Carousel(Testimonial Section)-->
+    <section class="common-section mb-5 pt-5 bg-color">
+      <div class="container text-center common-title fw-semibold">
+        <h2 class="common-heading text-white">
+          What Clients Say <br />
+          About Us
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">John Smith</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Emily Johnson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Michael Davis</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Sarah White</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">James Brown</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Olivia Taylor</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row g-5">
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Robert Clark</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">Jessica Anderson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="card p-3" style="width: 18rem">
+                      <img
+                        src="images/testimonial.png"
+                        class="card-img-top"
+                        alt="Testimonial"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title mb-2">William Wilson</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <div class="mt-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Expert panel section -->
+    <section class="common-section mb-5 pt-5">
+      <div class="container text-center common-title fw-semibold">
+        <h2 class="common-heading">
+          Tips and Tricks From <br />
+          Our Experts
+        </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/expert1.png"
+                  class="card-img-top"
+                  alt="expert review"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="small text-grey">
+                      <i class="fa-solid fa-book-open-reader"></i>:500
+                    </p>
+                    <p class="small text-grey">October 26, 2023</p>
+                  </div>
+                  <h5 class="card-title mt-3">Smart Contracts</h5>
+                  <p class="card-text mt-2 mb-3">
+                    it's essential to have a solid understanding of blockchain
+                    technology and how smart contracts function.
+                  </p>
+                  <a href="#" class="btn btn-dark px-3">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/expert2.png"
+                  class="card-img-top"
+                  alt="expert review"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="small text-grey">
+                      <i class="fa-solid fa-book-open-reader"></i>:500
+                    </p>
+                    <p class="small text-grey">October 26, 2023</p>
+                  </div>
+                  <h5 class="card-title mt-3">Audits</h5>
+                  <p class="card-text mt-2 mb-3">
+                    Begin by thoroughly understanding the purpose,
+                    functionality, and business logic of the smart contract.
+                  </p>
+                  <a href="#" class="btn btn-dark px-3">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/expert3.png"
+                  class="card-img-top"
+                  alt="expert review"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="small text-grey">
+                      <i class="fa-solid fa-book-open-reader"></i>:500
+                    </p>
+                    <p class="small text-grey">October 26, 2023</p>
+                  </div>
+                  <h5 class="card-title mt-3">Tokens</h5>
+                  <p class="card-text mt-2 mb-3">
+                    Utilize established token standards like ERC-20 or ERC-721
+                    for compatibility and interoperability.
+                  </p>
+                  <a href="#" class="btn btn-dark px-3">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/expert4.png"
+                  class="card-img-top"
+                  alt="expert review"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="small text-grey">
+                      <i class="fa-solid fa-book-open-reader"></i>:500
+                    </p>
+                    <p class="small text-grey">October 26, 2023</p>
+                  </div>
+                  <h5 class="card-title mt-3">NFTs</h5>
+                  <p class="card-text mt-2 mb-3">
+                    understanding of what NFTs are. They represent ownership of
+                    unique digital assets using blockchain technology.
+                  </p>
+                  <a href="#" class="btn btn-dark px-3">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact US -->
+    <section
+      class="common-section contact-section text-white bg-color pt-5 bg-color"
+    > <!--mb-5-->
+      <!-- shape divider start -->
+      <div class="custom-shape-divider-top-1698327556">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <!-- shape divider end -->
+      <div class="container text-center common-title fw-semibold">
+        <h2 class="common-heading text-white">Contact Us</h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <!--d-flex justify-content-center align-items-center-->
+        <!--one method of centering-->
+        <div class="form-section mx-auto">
+          <form>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <label for="exampleFormFirstName" class="form-label"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormFirstName"
+                    placeholder="Josh"
+                    required
+                  />
+                </div>
+                <div class="col-lg-6 col-12">
+                  <label for="exampleFormLastName" class="form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormLastName"
+                    placeholder="Bradman"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Send us a Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section -->
+    <footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-2 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-2">
+      <!-- Facebook -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-1 bg-light text-dark" >
+    © 2023 Copyright Reserved
+  </div>
+  <!-- Copyright -->
+</footer>
+    <!-- Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- for tooltips -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+  </body>
+</html>
